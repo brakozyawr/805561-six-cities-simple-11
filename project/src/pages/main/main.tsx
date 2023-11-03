@@ -19,6 +19,7 @@ function Main({filters}: MainProps): JSX.Element {
   const {offerListSortedByCity, city, offerListSortedByFilter} = useAppSelector((state) => state);
   const [selectedPoint, setSelectedPoint] = useState(0);
 
+
   const onListOfferHover = (listOfferId:number) :void =>{
     setSelectedPoint(listOfferId);
   };

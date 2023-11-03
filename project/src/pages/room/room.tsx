@@ -39,7 +39,7 @@ const Room = (): JSX.Element => {
   }
 
   return !currentOffer ? <NotFound/> : (
-    <>
+    <div className="page">
       <Header/>
       <main className="page__main page__main--property">
         <section className="property">
@@ -137,7 +137,7 @@ const Room = (): JSX.Element => {
           </section>
         </div>
       </main>
-    </>
+    </div>
   );
 };
 

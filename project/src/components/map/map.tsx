@@ -29,7 +29,6 @@ const currentCustomIcon = leaflet.icon({
 
 function Map({points, selectedCity, selectedPoint, main, currentOfferLocation}:MapProps): JSX.Element {
 
-
   const currentCity: TCity = selectedCity;
 
   const mapRef = useRef(null);
